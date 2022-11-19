@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #FFC700;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    padding: 20px;
+}
+
+.bag {
+    width: auto;
+    height: auto;
+}
+
+.bag-count {
+    position: relative;
+    left: 60%;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50%;
+    background-color: rgb(252, 111, 9);
+    width: 20px;
+    height: 20px;
+    color: #FFF;
+}
+
+.bag-svg {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
