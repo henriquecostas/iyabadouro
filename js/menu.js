@@ -1,5 +1,6 @@
 let menuToggle = document.querySelector(".menu-toggle");
 let menu = document.querySelector(".menu");
+
 let btnFechar = document.querySelector(".fechar");
 let nav = document.querySelector('nav');
 

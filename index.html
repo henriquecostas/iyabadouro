@@ -7,9 +7,11 @@
         <title>Iyabá D'ouro</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/modal.css">
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
          <header>
@@ -48,11 +50,55 @@
                     <img src="./svg/search.svg" alt="">
                 </div>
             </section>
+            <section class="bag-menu hide">
+                <div class="bag-menu-seta"></div>
+                <div class="bag-modal">
+                    <div class="bag-modal-items">
+                        <p>Sua sacola está vazia.</p>
+                    </div>
+                    <div class="bag-modal-links">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="./svg/sacola2.svg" alt="Sacola Iyaba D'ouro" />
+                                    <span>Sacola</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./svg/saved-items.svg" alt="Itens salvos Iyaba D'ouro" />
+                                    <span>Items salvos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./svg/pedidos.svg" alt="Meus pedidos Iyaba D'ouro" />
+                                    <span>Pedidos</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./svg/account.svg" alt="Minha conta Iyaba D'ouro" />
+                                    <span>Minha conta</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./svg/entrar.svg" alt="Entrar em minha conta Iyaba D'ouro" />
+                                    <span>Entrar</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
          </header>  
+
          <main>
             <h1 class="title">Lançamentos</h1>
          </main>
 
-        <script src="menu.js"></script>
+        <script src="./js/menu.js"></script>
+        <script src="./js/bagModal.js"></script>
     </body>
 </html>

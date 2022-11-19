@@ -11,8 +11,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-nav {
     padding: 20px;
 }
 
@@ -53,6 +51,7 @@ nav {
 
 #search-header input {
     border: none;
+    font-size: 16px;
 }
 
 .title {
