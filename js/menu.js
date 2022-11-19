@@ -1,8 +1,6 @@
 let menuToggle = document.querySelector(".menu-toggle");
 let menu = document.querySelector(".menu");
-
 let btnFechar = document.querySelector(".fechar");
-let nav = document.querySelector('nav');
 
 menuToggle.addEventListener("click", ()=>{
     hideUnhide(menu);
@@ -13,11 +11,10 @@ btnFechar.addEventListener("click", ()=>{
 })
 
 function hideUnhide (element){
-    if (element.classList == "menu hide"){
+    if (element.classList.contains("hide")){
         element.classList.remove("hide");
-        nav.classList.add("hide");
     } else {
+        console.log("a")
         element.classList.add("hide");
-        nav.classList.remove("hide");
     }
 }

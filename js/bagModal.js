@@ -7,9 +7,10 @@ bag.addEventListener("click", ()=>{
 
 
 function hideUnhide (element){
-    if (element.classList == "bag-menu hide"){
+    if (element.classList.contains("hide")){
         element.classList.remove("hide");
     } else {
         element.classList.add("hide");
     }
 }
+
