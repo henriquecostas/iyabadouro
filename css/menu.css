@@ -1,12 +1,75 @@
 .menu {
-    background-color: #FF8800;
+    background-color: #ff8800;
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: 20;
+    font-family: 'Roboto', sans-serif;
 }
 
-.hide {
-    display: none;
+.menu a{
+    text-decoration: none;
+    color: #fff;
 }
 
+.fechar {
+    padding: 14px;
+}
+
+.fechar img{
+    width: 40px;
+}
+
+.menu-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+
+#search-menu-header {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 8px;
+    margin: 0px 20px;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    align-content: center;
+    padding: 0px 8px;
+}
+
+
+.search-input {
+    width: 100%;
+}
+
+.logo{
+    z-index: 1000;
+}
+
+#search-menu-header input {
+    border: none;
+    margin-left: 8px;
+    width: 80%;
+    height: 38px;
+    color: #050505;
+    font-size: 16px;
+}
+
+.menu-main {
+    width: 100%;
+    margin: 0px 32px;
+}
+
+.menu-main span{
+    margin-left: 12px;
+}
+
+.menu-main li{
+    list-style: none;
+    padding: 20px 0px;
+    border-bottom: solid 1px #fff;
+    width: 80%;
+}

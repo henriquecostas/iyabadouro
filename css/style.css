@@ -1,3 +1,7 @@
+*:focus {
+    outline: none;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -61,4 +65,8 @@ nav {
     font-weight: 600;
     margin: 50px 0px 30px;
     text-align: center;
+}
+
+.hide {
+    display: none;
 }
