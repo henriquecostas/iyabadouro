@@ -15,13 +15,12 @@ nav {
 }
 
 .bag {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 12px;
 }
 
 .bag-count {
     z-index: 10;
-    position: absolute;
     text-align: center;
     font-weight: 600;
     border-radius: 50%;
@@ -29,14 +28,16 @@ nav {
     width: 20px;
     height: 20px;
     color: #FFF;
-    top: 2%;
-    right: 3%;
+    position: absolute;
+    top: 1.075rem;
+    right: 1.20rem;
+
 }
 
 .bag-svg {
-    position: absolute;
     margin: 0px;
     padding: 0px;
+    position: absolute;
 }
 
 #search-header {
