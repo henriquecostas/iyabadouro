@@ -18,3 +18,21 @@ function hideUnhide (element){
         element.classList.add("hide");
     }
 }
+
+
+let menuLi = document.querySelector(".menu-li");
+let menuOrixas = document.querySelector(".orixas");
+
+menuLi.addEventListener('click', ()=>{
+    expandMenu(menuLi, menuOrixas);
+});
+
+function expandMenu(elToggle, elHide){
+    if (elToggle.classList.contains('expand')){
+        elToggle.classList.remove('expand')
+        elHide.classList.add('hide');
+    } else {
+        elToggle.classList.add('expand');
+        elHide.classList.remove('hide');
+    }
+};
