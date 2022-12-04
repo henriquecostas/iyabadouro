@@ -130,5 +130,6 @@ nav {
     width: 200px;
     height: 46px;
     border-color:#D2D2D2;
-    padding: 8px;
+    color: #404040;
+    font-size: 14px;
 }
